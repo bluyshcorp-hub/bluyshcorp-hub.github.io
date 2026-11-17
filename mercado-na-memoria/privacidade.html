@@ -9,7 +9,7 @@
 <body>
 <main>
 <h1>Política de Privacidade — Mercado na Memória</h1>
-<p class="data">Última atualização: 9 de novembro de 2026</p>
+<p class="data">Última atualização: 17 de novembro de 2026</p>
 
 <p>Esta política explica como o aplicativo <strong>Mercado na Memória</strong> ("app"), publicado por <strong>BluYsh</strong> (desenvolvedor pessoa física Jean Jonas da Silva), trata os seus dados. Ela segue a Lei Geral de Proteção de Dados (Lei nº 13.709/2018, LGPD) e as políticas do Google Play.</p>
 
@@ -17,7 +17,8 @@
 <div class="cartao">
 <ul>
 <li>Suas listas, preços, mercados, histórico, orçamentos e modelos ficam <strong>somente no seu aparelho</strong>. Nós não temos servidor e não recebemos esse conteúdo.</li>
-<li>O app <strong>não usa sua localização</strong> nem o microfone diretamente.</li>
+<li>O app <strong>não usa sua localização</strong> e não pede permissão de câmera nem de microfone.</li>
+<li>Ao <strong>importar uma nota fiscal pelo QR Code</strong>, o seu aparelho consulta diretamente o site da Sefaz de Santa Catarina. Nenhum servidor nosso participa, e o app não guarda CPF nem nome do consumidor.</li>
 <li>O app exibe anúncios do <strong>Google AdMob</strong>, que pode coletar alguns dados do aparelho para mostrar e medir anúncios.</li>
 <li>A compra "Remover anúncios" é processada pelo <strong>Google Play</strong>. Nós nunca vemos os dados do seu cartão.</li>
 <li>Você pode apagar todos os dados a qualquer momento desinstalando o app ou limpando os dados dele nas configurações do Android.</li>
@@ -30,6 +31,12 @@
 <p><strong>Compartilhamento de lista:</strong> ao compartilhar uma lista, o app abre o menu de compartilhamento do Android e envia o texto da lista para o app que você escolher (por exemplo, um aplicativo de mensagens). O que acontece com o texto depois disso segue a política do app escolhido.</p>
 <p><strong>Ditado por voz:</strong> quando você toca no botão de voz, o app usa o serviço de reconhecimento de fala do Google instalado no seu aparelho. O áudio é processado pelo Google, conforme a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>; o app recebe apenas o texto reconhecido e não grava nem armazena o áudio.</p>
 <p>Se o backup automático do Android estiver ativado na sua conta Google, o sistema pode incluir esses dados no backup da sua própria conta. Esse backup é feito pelo Google, conforme as configurações do seu aparelho, e nós não temos acesso a ele.</p>
+
+<h3>Importar nota fiscal pelo QR Code</h3>
+<p>Quando você usa <strong>Importar nota fiscal</strong>, o app abre o leitor de códigos do <strong>Google Play services</strong> (ML Kit) para ler o QR Code do cupom fiscal (NFC-e). A imagem da câmera é processada no aparelho pelo Google Play services: não é armazenada nem enviada, e o app <strong>não pede a permissão de câmera</strong>. O app recebe apenas o endereço contido no QR Code.</p>
+<p>Em seguida, o <strong>seu aparelho consulta diretamente a página pública da Secretaria da Fazenda de Santa Catarina</strong> (<code>sat.sef.sc.gov.br</code>) para ler os itens da nota. Essa conexão acontece entre o seu celular e o site do governo, sem passar por nenhum servidor nosso, e só acontece quando você pede a importação. No momento, só são aceitas notas emitidas em Santa Catarina.</p>
+<p>O app guarda <strong>somente no aparelho</strong> os itens, preços, nome do mercado, data da compra e a chave de acesso da nota (para não importar a mesma nota duas vezes), além dos vínculos entre as descrições do cupom e os itens da sua lista. O app <strong>não coleta nem guarda CPF, nome do consumidor nem o conteúdo completo da página</strong> da Sefaz. Ao sair da tela de importação, os cookies e dados temporários da consulta são apagados.</p>
+<p>O leitor de códigos do Google pode enviar ao Google dados técnicos de diagnóstico e uso (como modelo do aparelho, versões do sistema e do app, desempenho e erros), conforme a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>. Segundo o Google, esses dados não incluem a imagem da câmera.</p>
 
 <h2>3. Anúncios (Google AdMob)</h2>
 <p>A versão gratuita do app exibe anúncios fornecidos pelo Google AdMob. Para isso, o SDK do Google Mobile Ads pode coletar e processar automaticamente:</p>
@@ -52,10 +59,10 @@
 <p>A compra é feita pelo sistema de faturamento do Google Play. O Google processa o pagamento e nos envia apenas a confirmação de que a compra foi feita (um identificador da compra), para que o app possa desativar os anúncios e restaurar a compra se você reinstalar o app. Nós não recebemos nome, e-mail, endereço ou dados de pagamento. Consulte a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a> para saber como o Google Play trata esses dados.</p>
 
 <h2>5. Permissões do Android</h2>
-<p>O app usa acesso à internet (para carregar anúncios e verificar compras) e as permissões técnicas que o Google Mobile Ads e o Google Play Billing adicionam (como ID de publicidade e faturamento). Nenhuma delas pede autorização a você. O app não acessa sua localização, contatos, câmera, fotos ou arquivos; o acesso a arquivos acontece apenas pelo seletor do Android, quando você mesmo escolhe onde salvar ou de onde restaurar uma cópia de segurança. O ditado por voz usa o serviço do Google descrito acima, sem que o app peça permissão de microfone.</p>
+<p>O app usa acesso à internet (para carregar anúncios e verificar compras) e as permissões técnicas que o Google Mobile Ads e o Google Play Billing adicionam (como ID de publicidade e faturamento). Nenhuma delas pede autorização a você. O app não pede permissão de localização, contatos, câmera, fotos ou arquivos. A leitura do QR Code da nota fiscal é feita pelo leitor do Google Play services, que usa a câmera sem que o app precise dessa permissão. O acesso a arquivos acontece apenas pelo seletor do Android, quando você mesmo escolhe onde salvar ou de onde restaurar uma cópia de segurança. O ditado por voz usa o serviço do Google descrito acima, sem que o app peça permissão de microfone.</p>
 
 <h2>6. Compartilhamento de dados</h2>
-<p>Não vendemos nem compartilhamos dados pessoais. Os únicos terceiros envolvidos são o Google (AdMob, Google Play e reconhecimento de fala), nas finalidades descritas acima, além dos apps que você mesmo escolher ao compartilhar uma lista.</p>
+<p>Não vendemos nem compartilhamos dados pessoais. Os únicos terceiros envolvidos são o Google (AdMob, Google Play, leitor de códigos e reconhecimento de fala), nas finalidades descritas acima, a Secretaria da Fazenda de Santa Catarina, consultada pelo seu aparelho apenas quando você importa uma nota fiscal, e os apps que você mesmo escolher ao compartilhar uma lista.</p>
 
 <h2>7. Crianças</h2>
 <p>O app não é direcionado a menores de 13 anos e não coleta intencionalmente dados de crianças. Se você acredita que uma criança forneceu dados, entre em contato para que possamos ajudar.</p>
